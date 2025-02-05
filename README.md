@@ -11,5 +11,7 @@
 
 Script to upload imagery products to Data-to-Science
 
+[Script to pull data from D2S into a ML notebook](https://github.com/jeffgillan/data_to_science_scripts)
+
 Terraform & ansible template to launch VMs and sofware stack on commercial Cloud 
 
