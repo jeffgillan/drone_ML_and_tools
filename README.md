@@ -5,6 +5,8 @@
 
 [Automated Metashape worfklow on HPC](https://github.com/jeffgillan/metashape_hpc)
 
+[OpenDroneMap](https://github.com/jeffgillan/opendronemap)
+
 [Convert geotiff to COGs and point clouds to COPC (docker)](https://github.com/jeffgillan/cog_copc_generate)
 
 [Pipeline for automated Metashape workflow + COG/COPC conversion](https://github.com/jeffgillan/cog_copc_generate), docker-compose
