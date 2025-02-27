@@ -30,7 +30,10 @@ Terraform & ansible template to launch VMs and sofware stack on commercial Cloud
 * Docker desktop and CLI tool
 * exiftool CLI tool
 * VS Code
-* 
+* WebODM
+
+`cd /users/jgillan/Documents/repositories/WebODM`
+`./webodm.sh start`
 
 
 
