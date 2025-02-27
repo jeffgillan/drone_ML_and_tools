@@ -23,5 +23,14 @@ Terraform & ansible template to launch VMs and sofware stack on commercial Cloud
 
 [STAC catalog for Open Forest Observatory](https://radiantearth.github.io/stac-browser/#/external/stac.cyverse.org/?.language=en)
 
+## Software Stack
+* Agisoft Metashape GUI and python module
+* Cloudcompare GUI
+* QGIS GUI
+* Docker desktop and CLI tool
+* exiftool CLI tool
+* VS Code
+* 
+
 
 
