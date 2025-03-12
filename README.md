@@ -31,7 +31,7 @@ Script to upload imagery products to Data-to-Science
 
 [SAMGeo](https://samgeo.gishub.org/)
 
-
+[W.A.L.D.O. Whereabouts Ascertainment for Low-lying Detectable Objects](https://huggingface.co/StephanST/WALDO30)
 
 ## Macbook Air Software Stack
 * Agisoft Metashape GUI and python module
