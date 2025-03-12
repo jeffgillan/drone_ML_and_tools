@@ -27,6 +27,10 @@ Script to upload imagery products to Data-to-Science
 
 [GeoAI](https://geoai.gishub.org/)
 
+[Tree Detection Framework](https://github.com/open-forest-observatory/tree-detection-framework)
+
+[SAMGeo](https://samgeo.gishub.org/)
+
 
 
 ## Macbook Air Software Stack
