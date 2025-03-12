@@ -13,17 +13,23 @@
 
 Script to upload imagery products to Data-to-Science
 
-[Script to pull data from D2S into a ML notebook and use Detecto](https://github.com/jeffgillan/data_to_science_scripts/blob/main/lettuce_detecto.ipynb)
+[Script to pull data from D2S into a ML notebook and use Detecto for lettuce ID](https://github.com/jeffgillan/data_to_science_scripts/blob/main/lettuce_detecto.ipynb)
 
 [Notebook for DeepForest](https://github.com/ua-datalab/Geospatial_Workshops/wiki/Image-Object-Detection-%E2%80%90-Deep-Forest)
 
 [Notebook for Detecto](https://github.com/ua-datalab/Geospatial_Workshops/wiki/Image-Object-Detection-%E2%80%90-Detecto) 
 
-Terraform & ansible template to launch VMs and sofware stack on commercial Cloud 
+[CACAO Open Forest Observatory](https://github.com/open-forest-observatory/cacao-terraform-ofo/tree/main)  
 
-[STAC catalog for Open Forest Observatory](https://radiantearth.github.io/stac-browser/#/external/stac.cyverse.org/?.language=en)
+[STAC catalog for Open Forest Observatory](https://github.com/open-forest-observatory/stac)
 
-## Software Stack
+[Low Altitude Disaster Imagery (LADI)](https://github.com/LADI-Dataset/ladi-overview) dataset and pretrained models.
+
+[GeoAI](https://geoai.gishub.org/)
+
+
+
+## Macbook Air Software Stack
 * Agisoft Metashape GUI and python module
 * Cloudcompare GUI
 * QGIS GUI
@@ -32,9 +38,9 @@ Terraform & ansible template to launch VMs and sofware stack on commercial Cloud
 * VS Code
 * WebODM
 
-`cd /users/jgillan/Documents/repositories/WebODM`
+  `cd /users/jgillan/Documents/repositories/WebODM`
 
-`./webodm.sh start`
+  `./webodm.sh start`
 
 
 
