@@ -44,6 +44,8 @@ Script to upload imagery products to Data-to-Science
 
 [W.A.L.D.O. Whereabouts Ascertainment for Low-lying Detectable Objects](https://huggingface.co/StephanST/WALDO30)
 
+[TorchGeo NAIP Foundation Models](https://torchgeo.readthedocs.io/en/stable/api/models.html#naip)
+
 
 
 
