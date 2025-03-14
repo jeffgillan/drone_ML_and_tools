@@ -46,8 +46,9 @@ Script to upload imagery products to Data-to-Science
 
 [TorchGeo NAIP Foundation Models](https://torchgeo.readthedocs.io/en/stable/api/models.html#naip)
 
+[satlas_pretrain models](https://github.com/allenai/satlaspretrain_models/)
 
-
+[Tree Detection Framework from Open Forest Observatory](https://github.com/open-forest-observatory/tree-detection-framework)
 
 
 ## Macbook Air Software Stack
