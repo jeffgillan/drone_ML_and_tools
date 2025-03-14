@@ -1,5 +1,6 @@
 # drone_imagery_automation
 
+## Drone Photogrammetry Processing 
 
 [Automated Metashape workflow on local machine](https://github.com/jeffgillan/automate-metashape), native & docker
 
@@ -11,17 +12,27 @@
 
 [Pipeline for automated Metashape workflow + COG/COPC conversion](https://github.com/jeffgillan/cog_copc_generate), docker-compose
 
-Script to upload imagery products to Data-to-Science
 
-[Script to pull data from D2S into a ML notebook and use Detecto for lettuce ID](https://github.com/jeffgillan/data_to_science_scripts/blob/main/lettuce_detecto.ipynb)
+## Cyber Infrastructure
 
-[Notebook for DeepForest](https://github.com/ua-datalab/Geospatial_Workshops/wiki/Image-Object-Detection-%E2%80%90-Deep-Forest)
-
-[Notebook for Detecto](https://github.com/ua-datalab/Geospatial_Workshops/wiki/Image-Object-Detection-%E2%80%90-Detecto) 
+[Open Forest Observatory](https://openforestobservatory.org/)
 
 [CACAO Open Forest Observatory](https://github.com/open-forest-observatory/cacao-terraform-ofo/tree/main)  
 
 [STAC catalog for Open Forest Observatory](https://github.com/open-forest-observatory/stac)
+
+[Data to Science](https://ps2.d2s.org/)
+
+Script to upload imagery products to Data-to-Science
+
+
+## Pretrained ML Models
+
+[Notebook for DeepForest](https://github.com/ua-datalab/Geospatial_Workshops/wiki/Image-Object-Detection-%E2%80%90-Deep-Forest)
+
+[Notebook for Data-to-Science and Detecto for lettuce ID](https://github.com/jeffgillan/data_to_science_scripts/blob/main/lettuce_detecto.ipynb)
+
+[Notebook for Detecto](https://github.com/ua-datalab/Geospatial_Workshops/wiki/Image-Object-Detection-%E2%80%90-Detecto) 
 
 [Low Altitude Disaster Imagery (LADI)](https://github.com/LADI-Dataset/ladi-overview) dataset and pretrained models.
 
@@ -32,6 +43,10 @@ Script to upload imagery products to Data-to-Science
 [SAMGeo](https://samgeo.gishub.org/)
 
 [W.A.L.D.O. Whereabouts Ascertainment for Low-lying Detectable Objects](https://huggingface.co/StephanST/WALDO30)
+
+
+
+
 
 ## Macbook Air Software Stack
 * Agisoft Metashape GUI and python module
