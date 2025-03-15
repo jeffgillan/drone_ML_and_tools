@@ -50,6 +50,7 @@ Script to upload imagery products to Data-to-Science
 
 [Tree Detection Framework from Open Forest Observatory](https://github.com/open-forest-observatory/tree-detection-framework)
 
+[VisDrone from Ultralytics YOLO](https://docs.ultralytics.com/datasets/detect/visdrone/)
 
 ## Macbook Air Software Stack
 * Agisoft Metashape GUI and python module
