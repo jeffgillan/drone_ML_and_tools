@@ -30,6 +30,8 @@ Script to upload imagery products to Data-to-Science
 
 [Notebook for DeepForest](https://github.com/ua-datalab/Geospatial_Workshops/wiki/Image-Object-Detection-%E2%80%90-Deep-Forest)
 
+[Deep Forest](https://deepforest.readthedocs.io/en/v1.5.0/index.html) provides pretrained model to do tree crown object detection. The model started with resnet-50 classification backbone pretrained on ImageNet dataset. Then they estimated the tree crown locations of 30 million trees from Neon Lidar data across the US. They further trained the model on these unsupervised lidar tree crowns. Then final step was training on 10,000 hand-annoted canopy bounding boxes.  
+
 [Notebook for Data-to-Science and Detecto for lettuce ID](https://github.com/jeffgillan/data_to_science_scripts/blob/main/lettuce_detecto.ipynb)
 
 [Notebook for Detecto](https://github.com/ua-datalab/Geospatial_Workshops/wiki/Image-Object-Detection-%E2%80%90-Detecto) 
