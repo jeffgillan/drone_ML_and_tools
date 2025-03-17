@@ -44,7 +44,7 @@ Script to upload imagery products to Data-to-Science
 
 [SAMGeo](https://samgeo.gishub.org/)
 
-[W.A.L.D.O. Whereabouts Ascertainment for Low-lying Detectable Objects](https://huggingface.co/StephanST/WALDO30)
+[W.A.L.D.O. Whereabouts Ascertainment for Low-lying Detectable Objects](https://huggingface.co/StephanST/WALDO30)- pretrained model base on YOLO-v8 backbone. Can ID vehicles, people, buildings, bikes. Training dataset is not public. 
 
 [TorchGeo NAIP Foundation Models](https://torchgeo.readthedocs.io/en/stable/api/models.html#naip)
 
