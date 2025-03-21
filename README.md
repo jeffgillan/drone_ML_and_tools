@@ -56,6 +56,7 @@ Script to upload imagery products to Data-to-Science
 
 [Restor Tree Crown Delineation](https://restor-foundation.github.io/tcd/): Consists of a [tree crown dataset](https://huggingface.co/datasets/restor/tcd), [pretrained models](https://huggingface.co/restor) that do semantic segmentation (segformer & unet) and instance segmentation (mask-rcnn). Also has a coded pipeline to train and predict tree crowns. 
 
+[DOTA Dataset](https://captain-whu.github.io/DOTA/index.html)
 
 ## Macbook Air Software Stack
 * Agisoft Metashape GUI and python module
