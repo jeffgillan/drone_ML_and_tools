@@ -42,7 +42,6 @@ Script to upload imagery products to Data-to-Science
 ### WALDO
 [W.A.L.D.O. Whereabouts Ascertainment for Low-lying Detectable Objects](https://huggingface.co/StephanST/WALDO30)- pretrained model base on [YOLO-v8](https://docs.ultralytics.com/models/yolov8/) backbone. Can ID vehicles, people, buildings, bikes. Training dataset is not public. Yolov8 object detection trained on the [COCO](https://cocodataset.org/#home) dataset. 
 
-
 ### VisDrone
 [VisDrone from Ultralytics YOLO](https://docs.ultralytics.com/datasets/detect/visdrone/)
 The VisDrone Dataset is a large-scale benchmark created by the AISKYEYE team at Tianjin University, China. It is designed for various computer vision tasks related to drone-based image and video analysis. Key features include:
@@ -50,28 +49,29 @@ The VisDrone Dataset is a large-scale benchmark created by the AISKYEYE team at 
 You can fine-tune the yolo vision model on the dataset for various tasks like object detection, tracking, and crowd counting. 
 
 
-
-
-
+### Low Altitude Disaster Imagery
 [Low Altitude Disaster Imagery (LADI)](https://github.com/LADI-Dataset/ladi-overview) dataset and pretrained models.
 
-[GeoAI](https://geoai.gishub.org/)
 
-[Tree Detection Framework](https://github.com/open-forest-observatory/tree-detection-framework)
+### GeoAI python library from Quisheng Wu
+[GeoAI](https://geoai.gishub.org/)
 
 [SAMGeo](https://samgeo.gishub.org/)
 
+### Tree Detection Framework from Open Forest Observatory
+[Tree Detection Framework](https://github.com/open-forest-observatory/tree-detection-framework)
 
 
+### TorchGeo NAIP Foundation Model
 [TorchGeo NAIP Foundation Models](https://torchgeo.readthedocs.io/en/stable/api/models.html#naip)
 
 [satlas_pretrain models](https://github.com/allenai/satlaspretrain_models/)
 
-[Tree Detection Framework from Open Forest Observatory](https://github.com/open-forest-observatory/tree-detection-framework)
-
-
-
+### Restor Tree Crown Delineation
 [Restor Tree Crown Delineation](https://restor-foundation.github.io/tcd/): Consists of a [tree crown dataset](https://huggingface.co/datasets/restor/tcd), [pretrained models](https://huggingface.co/restor) that do semantic segmentation (segformer & unet) and instance segmentation (mask-rcnn). Also has a coded pipeline to train and predict tree crowns. 
+
+### Dota Dataset
+A Large-Scale Benchmark and Challenges for Object Detection in Aerial Images
 
 [DOTA Dataset](https://captain-whu.github.io/DOTA/index.html)
 
