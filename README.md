@@ -46,9 +46,9 @@ Script to upload imagery products to Data-to-Science
 
 By default, Detecto uses the convolutional neural network architecture [Faster R-CNN](https://arxiv.org/pdf/1506.01497) ResNet-50 FPN. The architecture was pre-trained on the [COCO](https://cocodataset.org/#home) (common objects in context) dataset which contains over 330,000 images, each annotated with 80 object classes (e.g., person, bicycle, car, motorcycle, airplane, bus, train, truck, boat, kite, knife, spoon, tv, book). The images and labels are generally not from aerial view points. Therefore, Detecto is not ready to identify objects in aerial images out-of-the-box. It has to be trained to do so.
 
-[Lesson using Detecto](https://github.com/ua-datalab/Geospatial_Workshops/wiki/Image-Object-Detection-%E2%80%90-Detecto) to train and identify objects from aerial imagery. 
+[Lesson using Detecto](https://github.com/ua-datalab/Geospatial_Workshops/wiki/Image-Object-Detection-%E2%80%90-Detecto) to train and identify objects from aerial imagery. It uses the [NWPU VHR-10 dataset](https://github.com/chaozhong2010/VHR-10_dataset_coco) which is a very high resolution (VHR) aerial imagery dataset that consists of 800 total images. The dataset has has ten classes of labeled objects: 1. airplane(757), 2. ship(302), 3. storage tank(655), 4. baseball diamond(390), 5. tennis court(524), 6. basketball court(159), 7. ground track field(163), 8. harbor(224), 9. bridges(124), and 10. vehicle(477). 
 
-Example code in a Jupyter Notebook to identify lettuce[Notebook for Data-to-Science and Detecto for lettuce ID](https://github.com/jeffgillan/data_to_science_scripts/blob/main/lettuce_detecto.ipynb)
+[Example code in a Jupyter Notebook to identify lettuce](https://github.com/jeffgillan/data_to_science_scripts/blob/main/lettuce_detecto.ipynb)
 
 
 <br>
