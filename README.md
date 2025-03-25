@@ -55,7 +55,10 @@ By default, Detecto uses the convolutional neural network architecture [Faster R
 <br>
 
 ### WALDO
-[W.A.L.D.O. Whereabouts Ascertainment for Low-lying Detectable Objects](https://huggingface.co/StephanST/WALDO30)- pretrained model base on [YOLO-v8](https://docs.ultralytics.com/models/yolov8/) backbone. Can ID vehicles, people, buildings, bikes. Training dataset is not public. Yolov8 object detection trained on the [COCO](https://cocodataset.org/#home) dataset. 
+[W.A.L.D.O.](https://huggingface.co/StephanST/WALDO30) is a pretrained model for detecting objects in aerial video or images. The model can identity 12 object classes: 0 = light vehicle; 1 = person; 2 = building; 3 = Utility pole; 4 = boat; 5 = bike; 6 = container; 7 = truck; 8 = gastank; 10 = digger (construction equipment); 11 = solar panels; 12 = bus. The training dataset is not public. WALDO pretrained model is based on [YOLO-v8](https://docs.ultralytics.com/models/yolov8/) which was trained on the [COCO](https://cocodataset.org/#home) dataset. 
+
+
+based on 
 
 <br>
 <br>
