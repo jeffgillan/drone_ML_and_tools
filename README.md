@@ -30,17 +30,30 @@ Script to upload imagery products to Data-to-Science
 
 
 ### Deepforest
-[Deep Forest](https://deepforest.readthedocs.io/en/v1.5.0/index.html) provides pretrained model to do tree crown object detection. The model started with resnet-50 classification backbone pretrained on [ImageNet dataset](https://www.image-net.org/index.php). Then they estimated the tree crown locations of 30 million trees from Neon Lidar data across the US. They further trained the model on these unsupervised lidar tree crowns. Then final step was training on 10,000 hand-annoted canopy bounding boxes.  
+[Deep Forest](https://deepforest.readthedocs.io/en/v1.5.0/index.html) is a python library built on top of Pytorch that does object detection from high-resolution aerial imagery
 
-[Jupyter Notebook for DeepForest](https://github.com/ua-datalab/Geospatial_Workshops/wiki/Image-Object-Detection-%E2%80%90-Deep-Forest)
+* Includes pretrained models detect tree crowns, identify birds, identify cattle, and detect alive v dead trees.
+
+* The tree crown model started with resnet-50 classification backbone pretrained on [ImageNet dataset](https://www.image-net.org/index.php). They further trained the model on these unsupervised lidar tree crowns (30 million) derived from NEON Lidar data across the US. Then final step was training on 10,000 hand-annoted canopy bounding boxes.  
+
+* Example Code in a [Jupyter Notebook](https://github.com/ua-datalab/Geospatial_Workshops/wiki/Image-Object-Detection-%E2%80%90-Deep-Forest)
+
+<br>
+<br>
 
 ### Detecto
 [Notebook for Data-to-Science and Detecto for lettuce ID](https://github.com/jeffgillan/data_to_science_scripts/blob/main/lettuce_detecto.ipynb)
 
 [Notebook for Detecto](https://github.com/ua-datalab/Geospatial_Workshops/wiki/Image-Object-Detection-%E2%80%90-Detecto) 
 
+<br>
+<br>
+
 ### WALDO
 [W.A.L.D.O. Whereabouts Ascertainment for Low-lying Detectable Objects](https://huggingface.co/StephanST/WALDO30)- pretrained model base on [YOLO-v8](https://docs.ultralytics.com/models/yolov8/) backbone. Can ID vehicles, people, buildings, bikes. Training dataset is not public. Yolov8 object detection trained on the [COCO](https://cocodataset.org/#home) dataset. 
+
+<br>
+<br>
 
 ### VisDrone
 [VisDrone from Ultralytics YOLO](https://docs.ultralytics.com/datasets/detect/visdrone/)
