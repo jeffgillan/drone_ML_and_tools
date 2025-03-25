@@ -32,7 +32,7 @@ Script to upload imagery products to Data-to-Science
 ### Deepforest
 [Deep Forest](https://deepforest.readthedocs.io/en/v1.5.0/index.html) is a python library built on top of Pytorch that does object detection from high-resolution aerial imagery
 
-* Includes pretrained models detect tree crowns, identify birds, identify cattle, and detect alive v dead trees.
+* Includes pretrained models detect tree crowns, identify birds, identify cattle, and detect alive v. dead trees.
 
 * The tree crown model started with resnet-50 classification backbone pretrained on [ImageNet dataset](https://www.image-net.org/index.php). They further trained the model on these unsupervised lidar tree crowns (30 million) derived from NEON Lidar data across the US. Then final step was training on 10,000 hand-annoted canopy bounding boxes.  
 
@@ -42,9 +42,14 @@ Script to upload imagery products to Data-to-Science
 <br>
 
 ### Detecto
-[Notebook for Data-to-Science and Detecto for lettuce ID](https://github.com/jeffgillan/data_to_science_scripts/blob/main/lettuce_detecto.ipynb)
+[Detecto](https://detecto.readthedocs.io/en/latest/) is an object detection python library built on top of deep learning framework [Pytorch](https://pytorch.org/). 
 
-[Notebook for Detecto](https://github.com/ua-datalab/Geospatial_Workshops/wiki/Image-Object-Detection-%E2%80%90-Detecto) 
+By default, Detecto uses the convolutional neural network architecture [Faster R-CNN](https://arxiv.org/pdf/1506.01497) ResNet-50 FPN. The architecture was pre-trained on the [COCO](https://cocodataset.org/#home) (common objects in context) dataset which contains over 330,000 images, each annotated with 80 object classes (e.g., person, bicycle, car, motorcycle, airplane, bus, train, truck, boat, kite, knife, spoon, tv, book). The images and labels are generally not from aerial view points. Therefore, Detecto is not ready to identify objects in aerial images out-of-the-box. It has to be trained to do so.
+
+[Lesson using Detecto](https://github.com/ua-datalab/Geospatial_Workshops/wiki/Image-Object-Detection-%E2%80%90-Detecto) to train and identify objects from aerial imagery. 
+
+Example code in a Jupyter Notebook to identify lettuce[Notebook for Data-to-Science and Detecto for lettuce ID](https://github.com/jeffgillan/data_to_science_scripts/blob/main/lettuce_detecto.ipynb)
+
 
 <br>
 <br>
@@ -88,7 +93,8 @@ A Large-Scale Benchmark and Challenges for Object Detection in Aerial Images
 
 [DOTA Dataset](https://captain-whu.github.io/DOTA/index.html)
 
+### SODA-A Dataset
+https://huggingface.co/datasets/satellite-image-deep-learning/SODA-A
 
-
-
+SODA-A comprises 2513 high-resolution images of aerial scenes, which has 872069 instances annotated with oriented rectangle box annotations over 9 classes.
 
