@@ -1,30 +1,3 @@
-# drone_imagery_automation
-
-## Drone Photogrammetry Processing 
-
-[Automated Metashape workflow on local machine](https://github.com/jeffgillan/automate-metashape), native & docker
-
-[Automated Metashape worfklow on HPC](https://github.com/jeffgillan/metashape_hpc)
-
-[OpenDroneMap](https://github.com/jeffgillan/opendronemap)
-
-[Convert geotiff to COGs and point clouds to COPC (docker)](https://github.com/jeffgillan/cog_copc_generate)
-
-[Pipeline for automated Metashape workflow + COG/COPC conversion](https://github.com/jeffgillan/cog_copc_generate), docker-compose
-
-
-## Cyber Infrastructure
-
-[Open Forest Observatory](https://openforestobservatory.org/)
-
-[CACAO Open Forest Observatory](https://github.com/open-forest-observatory/cacao-terraform-ofo/tree/main)  
-
-[STAC catalog for Open Forest Observatory](https://github.com/open-forest-observatory/stac)
-
-[Data to Science](https://ps2.d2s.org/)
-
-Script to upload imagery products to Data-to-Science
-
 
 ## Pretrained ML Models & Datasets
 
@@ -103,4 +76,33 @@ A Large-Scale Benchmark and Challenges for Object Detection in Aerial Images
 https://huggingface.co/datasets/satellite-image-deep-learning/SODA-A
 
 SODA-A comprises 2513 high-resolution images of aerial scenes, which has 872069 instances annotated with oriented rectangle box annotations over 9 classes.
+
+
+
+
+## Drone Photogrammetry Processing 
+
+[Automated Metashape workflow on local machine](https://github.com/jeffgillan/automate-metashape), native & docker
+
+[Automated Metashape worfklow on HPC](https://github.com/jeffgillan/metashape_hpc)
+
+[OpenDroneMap](https://github.com/jeffgillan/opendronemap)
+
+[Convert geotiff to COGs and point clouds to COPC (docker)](https://github.com/jeffgillan/cog_copc_generate)
+
+[Pipeline for automated Metashape workflow + COG/COPC conversion](https://github.com/jeffgillan/cog_copc_generate), docker-compose
+
+
+## Cyber Infrastructure
+
+[Open Forest Observatory](https://openforestobservatory.org/)
+
+[CACAO Open Forest Observatory](https://github.com/open-forest-observatory/cacao-terraform-ofo/tree/main)  
+
+[STAC catalog for Open Forest Observatory](https://github.com/open-forest-observatory/stac)
+
+[Data to Science](https://ps2.d2s.org/)
+
+Script to upload imagery products to Data-to-Science
+
 
