@@ -55,17 +55,20 @@ By default, Detecto uses the convolutional neural network architecture [Faster R
 <br>
 
 ### WALDO
-[W.A.L.D.O.](https://huggingface.co/StephanST/WALDO30) is a pretrained model for detecting objects in aerial video or images. The model can identity 12 object classes: 0 = light vehicle; 1 = person; 2 = building; 3 = Utility pole; 4 = boat; 5 = bike; 6 = container; 7 = truck; 8 = gastank; 10 = digger (construction equipment); 11 = solar panels; 12 = bus. The training dataset is not public. WALDO pretrained model is based on [YOLO-v8](https://docs.ultralytics.com/models/yolov8/) which was trained on the [COCO](https://cocodataset.org/#home) dataset. 
+[W.A.L.D.O.](https://huggingface.co/StephanST/WALDO30) is a pretrained model for detecting objects in aerial video or images. 
 
+The model can identity 12 object classes: 0 = light vehicle; 1 = person; 2 = building; 3 = Utility pole; 4 = boat; 5 = bike; 6 = container; 7 = truck; 8 = gastank; 10 = digger (construction equipment); 11 = solar panels; 12 = bus. The training dataset is not public. 
 
-based on 
+WALDO pretrained model is based on [YOLO-v8](https://docs.ultralytics.com/models/yolov8/) which was trained on the [COCO](https://cocodataset.org/#home) dataset. 
+
+Go [here](https://github.com/jeffgillan/yolo_drone) for example code on how to detect objects in mp4 drone videos. 
 
 <br>
 <br>
 
-### VisDrone
+### VisDrone Dataset
 [VisDrone from Ultralytics YOLO](https://docs.ultralytics.com/datasets/detect/visdrone/)
-The VisDrone Dataset is a large-scale benchmark created by the AISKYEYE team at Tianjin University, China. It is designed for various computer vision tasks related to drone-based image and video analysis. Key features include:
+The VisDrone Dataset is a large-scale benchmark created by the AISKYEYE team at Tianjin University, China. It is designed for various computer vision tasks related to drone-based image and video analysis. 
 
 You can fine-tune the yolo vision model on the dataset for various tasks like object detection, tracking, and crowd counting. 
 
