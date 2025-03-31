@@ -95,6 +95,17 @@ LADI-v2-classifier-large](https://huggingface.co/MITLL/LADI-v2-classifier-large)
 
 [satlas_pretrain models](https://github.com/allenai/satlaspretrain_models/)
 
+These are transformer-based 'foundation' models, meaning original training is self-supervised on large datasets of NAIP aerial imagery. They have not been trained to do a specific task (e.g., object detection) but can be trained to do so. 
+
+The following prediction head architectures are available:
+
+Segmentation: U-Net Decoder w/ Cross Entropy loss
+Detection: Faster R-CNN Decoder
+Instance Segmentation: Mask R-CNN Decoder
+Regression: U-Net Decoder w/ L1 loss
+Classification: Pooling + Linear layers
+Multi-label Classification: Pooling + Linear layers
+
 <br>
 <br>
 
