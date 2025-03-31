@@ -20,6 +20,12 @@
 <br>
 <br>
 
+### Detectree2
+
+[Detectree2](https://patball1.github.io/detectree2/) is a python library that consists of [pretrained models](https://zenodo.org/records/15014353) that do instance segmentation of individual tree crowns from aerial and drone imagery. 
+
+
+
 ### Detecto
 [Detecto](https://detecto.readthedocs.io/en/latest/) is an object detection python library built on top of deep learning framework [Pytorch](https://pytorch.org/). 
 
