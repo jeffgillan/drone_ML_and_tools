@@ -14,6 +14,12 @@
 <br>
 <br>
 
+### Restor Tree Crown Delineation
+[Restor Tree Crown Delineation](https://restor-foundation.github.io/tcd/): Consists of a [tree crown dataset](https://huggingface.co/datasets/restor/tcd), and [pretrained models](https://huggingface.co/restor) that do semantic segmentation (segformer & unet) and instance segmentation (mask-rcnn). Also has a coded pipeline to train and predict tree crowns. 
+
+<br>
+<br>
+
 ### Detecto
 [Detecto](https://detecto.readthedocs.io/en/latest/) is an object detection python library built on top of deep learning framework [Pytorch](https://pytorch.org/). 
 
@@ -73,8 +79,7 @@ LADI-v2-classifier-large](https://huggingface.co/MITLL/LADI-v2-classifier-large)
 
 [satlas_pretrain models](https://github.com/allenai/satlaspretrain_models/)
 
-### Restor Tree Crown Delineation
-[Restor Tree Crown Delineation](https://restor-foundation.github.io/tcd/): Consists of a [tree crown dataset](https://huggingface.co/datasets/restor/tcd), [pretrained models](https://huggingface.co/restor) that do semantic segmentation (segformer & unet) and instance segmentation (mask-rcnn). Also has a coded pipeline to train and predict tree crowns. 
+
 
 ### Dota Dataset
 A Large-Scale Benchmark and Challenges for Object Detection in Aerial Images
