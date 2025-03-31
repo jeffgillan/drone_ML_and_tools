@@ -124,7 +124,8 @@ https://huggingface.co/datasets/satellite-image-deep-learning/SODA-A
 SODA-A comprises 2513 high-resolution images of aerial scenes, which has 872069 instances annotated with oriented rectangle box annotations over 9 classes.
 
 
-
+<br>
+<br>
 
 ## Drone Photogrammetry Processing 
 
@@ -138,6 +139,8 @@ SODA-A comprises 2513 high-resolution images of aerial scenes, which has 872069 
 
 [Pipeline for automated Metashape workflow + COG/COPC conversion](https://github.com/jeffgillan/cog_copc_generate), docker-compose
 
+<br>
+<br>
 
 ## Cyber Infrastructure
 
