@@ -24,7 +24,15 @@
 
 [Detectree2](https://patball1.github.io/detectree2/) is a python library that consists of [pretrained models](https://zenodo.org/records/15014353) that do instance segmentation of individual tree crowns from aerial and drone imagery. 
 
+<br>
+<br>
 
+
+### Tree Detection Framework from Open Forest Observatory
+[Tree Detection Framework](https://github.com/open-forest-observatory/tree-detection-framework)
+
+<br>
+<br>
 
 ### Detecto
 [Detecto](https://detecto.readthedocs.io/en/latest/) is an object detection python library built on top of deep learning framework [Pytorch](https://pytorch.org/). 
@@ -76,8 +84,10 @@ LADI-v2-classifier-large](https://huggingface.co/MITLL/LADI-v2-classifier-large)
 
 [SAMGeo](https://samgeo.gishub.org/)
 
-### Tree Detection Framework from Open Forest Observatory
-[Tree Detection Framework](https://github.com/open-forest-observatory/tree-detection-framework)
+
+<br>
+<br>
+
 
 
 ### TorchGeo NAIP Foundation Model
@@ -85,12 +95,17 @@ LADI-v2-classifier-large](https://huggingface.co/MITLL/LADI-v2-classifier-large)
 
 [satlas_pretrain models](https://github.com/allenai/satlaspretrain_models/)
 
+<br>
+<br>
 
 
 ### Dota Dataset
 A Large-Scale Benchmark and Challenges for Object Detection in Aerial Images
 
 [DOTA Dataset](https://captain-whu.github.io/DOTA/index.html)
+
+<br>
+<br>
 
 ### SODA-A Dataset
 https://huggingface.co/datasets/satellite-image-deep-learning/SODA-A
