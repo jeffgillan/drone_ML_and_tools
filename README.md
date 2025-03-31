@@ -47,7 +47,13 @@ You can fine-tune the yolo vision model on the dataset for various tasks like ob
 
 
 ### Low Altitude Disaster Imagery
-[Low Altitude Disaster Imagery (LADI)](https://github.com/LADI-Dataset/ladi-overview) dataset and pretrained models.
+[Low Altitude Disaster Imagery (LADI)](https://github.com/LADI-Dataset/ladi-overview) comprises of datasets and pretrained models to identify things after a disaster like damaged buildings and trees. The pretrained models are multi-label classifications meaning they will look at an image and output things like 'building_damage = true', 'tree_damage = false'. It does not do object detection or segmentation.  
+
+The [LADI dataset](https://huggingface.co/datasets/MITLL/LADI-v2-dataset) comprises of 10k aerial images collected and labeled by the Civil Air Patrol of natural disasters. 
+
+LADI provdies two pretrained models: [LADI-v2-classifier-small](https://huggingface.co/MITLL/LADI-v2-classifier-small) and [
+LADI-v2-classifier-large](https://huggingface.co/MITLL/LADI-v2-classifier-large). The small model was trained from [google/bit-50](https://huggingface.co/google/bit-50) - image classification model pretrained on datasets such as Image-Net-21k and JFT-300m. The large model was trained from [Swin Transformer v2](https://huggingface.co/microsoft/swinv2-large-patch4-window12to16-192to256-22kto1k-ft), which is a transformer architecture trained on ImageNet data. 
+
 
 
 ### GeoAI python library from Quisheng Wu
