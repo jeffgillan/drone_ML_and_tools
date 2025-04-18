@@ -109,6 +109,12 @@ Multi-label Classification: Pooling + Linear layers
 <br>
 <br>
 
+## Wildlife Detection 
+
+https://github.com/agentmorris/agentmorrispublic/blob/main/drone-datasets.md
+
+<br>
+<br>
 
 ### Dota Dataset
 A Large-Scale Benchmark and Challenges for Object Detection in Aerial Images
