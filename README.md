@@ -84,6 +84,7 @@ LADI-v2-classifier-large](https://huggingface.co/MITLL/LADI-v2-classifier-large)
 
 [SAMGeo](https://samgeo.gishub.org/)
 
+[SAMGEO examples from Jeff](https://github.com/jeffgillan/samgeo)
 
 <br>
 <br>
@@ -132,6 +133,10 @@ SODA-A comprises 2513 high-resolution images of aerial scenes, which has 872069 
 
 <br>
 <br>
+
+### Earth Observation Foundation Models
+
+[TerraMind](https://github.com/IBM/terramind?tab=readme-ov-file)
 
 ## Drone Photogrammetry Processing 
 
