@@ -90,6 +90,10 @@ LADI-v2-classifier-large](https://huggingface.co/MITLL/LADI-v2-classifier-large)
 <br>
 
 
+### GeoDeep
+
+Python library that uses Yolo
+https://github.com/uav4geo/GeoDeep
 
 ### TorchGeo NAIP Foundation Model
 [TorchGeo NAIP Foundation Models](https://torchgeo.readthedocs.io/en/stable/api/models.html#naip)
